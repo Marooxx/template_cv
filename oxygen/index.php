@@ -44,7 +44,7 @@
       <div class="carousel-inner">
         <div class="item active" style="background-image: url(images/slider/1.jpg)">
           <div class="caption">
-            <h1 class="animated fadeInLeftBig">Welcome to <span><?php echo $ligne_utilisateur['prenom'].' '.$ligne_utilisateur['nom'];?></span></h1>
+            <h1 class="animated fadeInLeftBig"><?php echo $ligne_utilisateur['prenom'] ?><span><?php echo $ligne_utilisateur['nom'];?></span></h1>
             <p class="animated fadeInRightBig">Développeur Intégrateur Web Junior</p>
             <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Start now</a>
           </div>
