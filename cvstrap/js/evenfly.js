@@ -2,7 +2,8 @@
 //CUSTOM SCROLLBAR
 //========================
 $(document).ready(
-    function () {
+    consolelog('coucou');
+    /*
         $("html").niceScroll({
             mousescrollstep: 70,
             cursorcolor: "#2ca8f5",
@@ -11,6 +12,7 @@ $(document).ready(
             cursorborder: "none",
         });
     }
+*/
 );
 
 
